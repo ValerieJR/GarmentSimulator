@@ -13,7 +13,7 @@
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="579.0" prefWidth="794.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <TableView layoutX="131.0" layoutY="27.0" prefHeight="506.0" prefWidth="452.0">
+      <TableView layoutX="129.0" layoutY="27.0" prefHeight="506.0" prefWidth="454.0">
          <columns>
             <TableColumn id="ID_tbl" prefWidth="75.0" text="ID" />
             <TableColumn id="FirstName_tbl" prefWidth="75.0" text="FirstName" />
@@ -49,7 +49,7 @@
       </MenuBar>
       <Rectangle id="Avatar_img" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="96.0" layoutX="14.0" layoutY="35.0" stroke="BLACK" strokeType="INSIDE" width="96.0" />
       <Rectangle id="bottom_rctngl" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="30.0" layoutX="-6.0" layoutY="533.0" stroke="BLACK" strokeType="INSIDE" width="802.0" />
-      <AnchorPane layoutX="582.0" layoutY="26.0" prefHeight="506.0" prefWidth="212.0">
+      <AnchorPane id="anchor2" layoutX="582.0" layoutY="26.0" prefHeight="506.0" prefWidth="212.0">
          <children>
             <TextField id="ID_txt" layoutX="9.0" layoutY="14.0" prefHeight="26.0" prefWidth="194.0" text="valerie" />
             <TextField id="LastName_txt" layoutX="9.0" layoutY="88.0" prefWidth="194.0" />

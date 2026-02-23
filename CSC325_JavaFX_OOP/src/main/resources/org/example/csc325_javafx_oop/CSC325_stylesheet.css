@@ -1,0 +1,12 @@
+.button{
+    -fx-background-color: "darkorange";
+}
+.root{
+    -fx-background-color: "darkorange";
+}
+.menu-bar{
+    -fx-background-color: "chocolate";
+}
+#anchor2{
+    -fx-background-color: "limegreen";
+}

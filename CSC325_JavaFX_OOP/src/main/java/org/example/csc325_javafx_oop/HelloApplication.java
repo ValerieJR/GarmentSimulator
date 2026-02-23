@@ -14,6 +14,7 @@ public class HelloApplication extends Application {
     public void start(Stage stage) throws IOException {
         Parent root = FXMLLoader.load(getClass().getResource("hello-view.fxml"));
         Scene scene = new Scene(root);
+        scene.getStylesheets().add(getClass().getResource("CSC325_stylesheet.css").toExternalForm());
         stage.setTitle("FSC CSC325_Full Stack Project");
         stage.setScene(scene);
         stage.show();
