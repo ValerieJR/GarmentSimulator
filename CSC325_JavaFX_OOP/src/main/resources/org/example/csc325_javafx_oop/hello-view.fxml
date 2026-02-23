@@ -10,15 +10,15 @@
 <?import javafx.scene.layout.AnchorPane?>
 
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="542.0" prefWidth="794.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="590.0" prefWidth="794.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <TextField id="ID_txt" layoutX="606.0" layoutY="51.0" text="valerie" />
-      <TextField id="LastName_txt" layoutX="606.0" layoutY="123.0" />
-      <TextField id="FirstName_txt" layoutX="606.0" layoutY="87.0" text="Reyes" />
-      <TextField id="Department_txt" layoutX="606.0" layoutY="157.0" />
-      <TextField id="Email_txt" layoutX="606.0" layoutY="229.0" />
-      <TextField id="Major_txt" layoutX="606.0" layoutY="193.0" />
-      <TableView layoutX="131.0" layoutY="27.0" prefHeight="456.0" prefWidth="452.0">
+      <TextField id="ID_txt" layoutX="592.0" layoutY="35.0" prefHeight="26.0" prefWidth="194.0" text="valerie" />
+      <TextField id="LastName_txt" layoutX="592.0" layoutY="104.0" prefWidth="194.0" />
+      <TextField id="FirstName_txt" layoutX="592.0" layoutY="70.0" prefHeight="26.0" prefWidth="194.0" text="Reyes" />
+      <TextField id="Department_txt" layoutX="592.0" layoutY="139.0" prefWidth="194.0" />
+      <TextField id="Email_txt" layoutX="592.0" layoutY="211.0" prefWidth="194.0" />
+      <TextField id="Major_txt" layoutX="592.0" layoutY="175.0" prefWidth="194.0" />
+      <TableView layoutX="131.0" layoutY="27.0" prefHeight="506.0" prefWidth="452.0">
          <columns>
             <TableColumn id="ID_tbl" prefWidth="75.0" text="ID" />
             <TableColumn id="FirstName_tbl" prefWidth="75.0" text="FirstName" />
@@ -52,9 +52,9 @@
             </Menu>
          </menus>
       </MenuBar>
-      <Button layoutX="592.0" layoutY="436.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="194.0" text="Button" />
-      <Button layoutX="592.0" layoutY="375.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="194.0" text="Button" />
-      <Button layoutX="592.0" layoutY="318.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="194.0" text="Button" />
-      <Button layoutX="592.0" layoutY="263.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="194.0" text="Button" />
+      <Button id="Edit_bttn" layoutX="592.0" layoutY="477.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="194.0" text="Edit" />
+      <Button id="Delete_bttn" layoutX="592.0" layoutY="429.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="194.0" text="Delete" />
+      <Button id="Add_bttn" layoutX="592.0" layoutY="380.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="194.0" text="Add" />
+      <Button id="Clear_bttn" layoutX="592.0" layoutY="333.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="194.0" text="Clear" />
    </children>
 </AnchorPane>
