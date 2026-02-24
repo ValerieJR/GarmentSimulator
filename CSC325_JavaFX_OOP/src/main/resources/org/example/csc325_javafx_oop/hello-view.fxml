@@ -11,7 +11,6 @@
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 
-
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="579.0" prefWidth="794.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
    <children>
       <TableView layoutX="129.0" layoutY="27.0" prefHeight="506.0" prefWidth="454.0" AnchorPane.bottomAnchor="45.39999999999998" AnchorPane.leftAnchor="129.20000000000005" AnchorPane.rightAnchor="210.60000000000002" AnchorPane.topAnchor="27.0">
@@ -48,11 +47,6 @@
             </Menu>
          </menus>
       </MenuBar>
-      <ImageView id="avatar_img" fitHeight="96.0" fitWidth="96.0" pickOnBounds="true" preserveRatio="true" x="14.0" y="35.0">
-         <image>
-            <Image url="@../../../../../../../../../Downloads/avatar_icon.png" />
-         </image>
-      </ImageView>
       <AnchorPane id="anchor2" layoutX="582.0" layoutY="26.0" maxHeight="1.7976931348623157E308" prefHeight="506.0" prefWidth="212.0" AnchorPane.bottomAnchor="46.200000000000045" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="26.0">
          <children>
             <TextField id="ID_txt" layoutX="9.0" layoutY="14.0" prefHeight="26.0" prefWidth="194.0" text="valerie" />
@@ -68,5 +62,10 @@
          </children>
       </AnchorPane>
       <AnchorPane id="anchorpane3" layoutX="-5.6" layoutY="530.0" prefHeight="30.0" prefWidth="804.0" AnchorPane.bottomAnchor="18.6" AnchorPane.leftAnchor="-6.0" AnchorPane.rightAnchor="-4.0" />
+      <ImageView fitHeight="96.0" fitWidth="96.0" pickOnBounds="true" preserveRatio="true" x="14.0" y="35.0">
+         <image>
+            <Image url="@avatar_icon.png" />
+         </image>
+      </ImageView>
    </children>
 </AnchorPane>
