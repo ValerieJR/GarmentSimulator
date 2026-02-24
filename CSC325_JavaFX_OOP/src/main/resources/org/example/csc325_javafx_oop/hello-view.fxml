@@ -7,8 +7,9 @@
 <?import javafx.scene.control.TableColumn?>
 <?import javafx.scene.control.TableView?>
 <?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
-<?import javafx.scene.shape.Rectangle?>
 
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="579.0" prefWidth="794.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
@@ -47,7 +48,11 @@
             </Menu>
          </menus>
       </MenuBar>
-      <Rectangle id="Avatar_img" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="96.0" layoutX="14.0" layoutY="35.0" stroke="BLACK" strokeType="INSIDE" width="96.0" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="35.0" />
+      <ImageView id="avatar_img" fitHeight="96.0" fitWidth="96.0" pickOnBounds="true" preserveRatio="true" x="14.0" y="35.0">
+         <image>
+            <Image url="@../../../../../../../../../Downloads/avatar_icon.png" />
+         </image>
+      </ImageView>
       <AnchorPane id="anchor2" layoutX="582.0" layoutY="26.0" maxHeight="1.7976931348623157E308" prefHeight="506.0" prefWidth="212.0" AnchorPane.bottomAnchor="46.200000000000045" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="26.0">
          <children>
             <TextField id="ID_txt" layoutX="9.0" layoutY="14.0" prefHeight="26.0" prefWidth="194.0" text="valerie" />
