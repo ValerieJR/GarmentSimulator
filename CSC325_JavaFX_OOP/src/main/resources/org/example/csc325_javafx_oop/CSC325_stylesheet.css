@@ -1,5 +1,6 @@
 .button{
     -fx-background-color: "darkorange";
+    -fx-background-radius: 10px;
 }
 .root{
     -fx-background-color: "darkorange";
@@ -12,5 +13,13 @@
 }
 
 #anchorpane3{
-    -fx-background-color: "lightgrey";
+    -fx-background-color: "silver";
+}
+
+.table-view .column-header-background .text{
+    -fx-fill: "white";
+}
+
+.table-view .column-header{
+    -fx-background-color: "silver";
 }

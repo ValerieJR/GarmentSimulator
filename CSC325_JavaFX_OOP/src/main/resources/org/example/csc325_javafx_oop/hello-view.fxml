@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.geometry.Insets?>
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Menu?>
 <?import javafx.scene.control.MenuBar?>
@@ -49,15 +50,15 @@
       </MenuBar>
       <AnchorPane id="anchor2" layoutX="582.0" layoutY="26.0" maxHeight="1.7976931348623157E308" prefHeight="506.0" prefWidth="212.0" AnchorPane.bottomAnchor="46.200000000000045" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="26.0">
          <children>
-            <TextField id="ID_txt" layoutX="9.0" layoutY="14.0" prefHeight="26.0" prefWidth="194.0" text="valerie" />
-            <TextField id="LastName_txt" layoutX="9.0" layoutY="88.0" prefWidth="194.0" />
-            <TextField id="FirstName_txt" layoutX="9.0" layoutY="50.0" prefHeight="26.0" prefWidth="194.0" text="Reyes" />
-            <TextField id="Department_txt" layoutX="9.0" layoutY="123.0" prefWidth="194.0" />
-            <TextField id="Email_txt" layoutX="9.0" layoutY="196.0" prefWidth="194.0" />
-            <TextField id="Major_txt" layoutX="9.0" layoutY="159.0" prefWidth="194.0" />
+            <TextField id="FirstName_txt" layoutX="9.0" layoutY="14.0" prefHeight="26.0" prefWidth="194.0" />
+            <TextField id="LastName_txt" layoutX="9.0" layoutY="50.0" prefWidth="194.0" promptText="LastName" />
+            <TextField id="imageurl_txt" layoutX="9.0" layoutY="195.0" prefHeight="26.0" prefWidth="194.0" promptText="ImageURL" />
+            <TextField id="Department_txt" layoutX="9.0" layoutY="85.0" prefWidth="194.0" promptText="Department" />
+            <TextField id="Email_txt" layoutX="9.0" layoutY="158.0" prefWidth="194.0" promptText="Email" />
+            <TextField id="Major_txt" layoutX="9.0" layoutY="121.0" prefWidth="194.0" promptText="Major" />
             <Button id="Edit_bttn" layoutX="9.0" layoutY="453.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="194.0" text="Edit" />
             <Button id="Delete_bttn" layoutX="9.0" layoutY="360.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="194.0" text="Delete" />
-            <Button id="Add_bttn" layoutX="9.0" layoutY="315.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="194.0" text="Add" />
+            <Button id="Add_bttn" layoutX="9.0" layoutY="315.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="194.0" text="Add" AnchorPane.leftAnchor="8.799999999999983" AnchorPane.rightAnchor="8.799999999999983" />
             <Button id="Clear_bttn" layoutX="9.0" layoutY="408.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="194.0" text="Clear" />
          </children>
       </AnchorPane>
@@ -68,4 +69,7 @@
          </image>
       </ImageView>
    </children>
+   <padding>
+      <Insets top="-1.0" />
+   </padding>
 </AnchorPane>
