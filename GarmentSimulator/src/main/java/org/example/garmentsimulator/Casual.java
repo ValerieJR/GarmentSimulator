@@ -5,12 +5,13 @@ public class Casual extends Garment{
         this.topStyle = "Short-sleeve";
         this.bottomStyle = "Sweatpants";
         this.shoeStyle = "Sneakers";
+        this.gender = "Female";
     }
 
     @Override
     public String toString() {
         String description;
-        description = "Top: " + this.topStyle + "\nBottom: " + this.bottomStyle + "\nShoe: " + this.shoeStyle;
+        description =this.gender + " Garments\nTop: " + this.topStyle + "\nBottom: " + this.bottomStyle + "\nShoe: " + this.shoeStyle;
         return description;
     }
 }

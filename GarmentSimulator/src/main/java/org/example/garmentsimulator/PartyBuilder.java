@@ -9,6 +9,8 @@ public class PartyBuilder implements GarmentBuilder {
     public GarmentBuilder setBottomStyle(String bottomStyle) { party.setBottomStyle(bottomStyle); return this; }
     @Override
     public GarmentBuilder setShoeStyle(String shoeStyle) { party.setShoeStyle(shoeStyle); return this; }
+    @Override
+    public GarmentBuilder setGender(String gender) { party.setGender(gender); return this; }
 
     @Override
     public Garment build() { return party; }

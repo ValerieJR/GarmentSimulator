@@ -9,6 +9,8 @@ public class ProfessionalBuilder implements  GarmentBuilder {
     public GarmentBuilder setBottomStyle(String bottomStyle) { professional.setBottomStyle(bottomStyle); return this; }
     @Override
     public GarmentBuilder setShoeStyle(String shoeStyle) { professional.setShoeStyle(shoeStyle); return this; }
+    @Override
+    public GarmentBuilder setGender(String gender) {professional.setGender(gender); return this; }
 
     @Override
     public Garment build() { return professional; }

@@ -5,12 +5,13 @@ public class Professional extends Garment {
         this.topStyle = "Button-up";
         this.bottomStyle = "Trouser";
         this.shoeStyle = "Oxford";
+        this.gender = "Male";
     }
 
     @Override
     public String toString() {
         String description;
-        description = "Top: " + this.topStyle + "\nBottom: " + this.bottomStyle + "\nShoe: " + this.shoeStyle;
+        description =this.gender + " Garments\nTop: " + this.topStyle + "\nBottom: " + this.bottomStyle + "\nShoe: " + this.shoeStyle;
         return description;
     }
 }

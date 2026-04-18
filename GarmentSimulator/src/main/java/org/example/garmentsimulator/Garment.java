@@ -4,9 +4,7 @@ public abstract class Garment {
     protected String topStyle;
     protected String bottomStyle;
     protected String shoeStyle;
-
-
-
+    protected String gender;
 
     public String getBottomStyle() {
         return bottomStyle;
@@ -32,10 +30,12 @@ public abstract class Garment {
         this.topStyle = topStyle;
     }
 
+    public void setGender(String gender) { this.gender = gender;}
+
     @Override
     public String toString() {
         String description;
-        description = "Top: " + this.topStyle + "\nBottom: " + this.bottomStyle + "\nShoe: " + this.shoeStyle;
+        description =this.gender + " Garments\nTop: " + this.topStyle + "\nBottom: " + this.bottomStyle + "\nShoe: " + this.shoeStyle;
         return description;
     }
 }

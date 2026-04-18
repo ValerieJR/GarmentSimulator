@@ -9,6 +9,8 @@ public class CasualBuilder implements GarmentBuilder{
     public GarmentBuilder setBottomStyle(String bottomStyle) { casual.setBottomStyle(bottomStyle); return this; }
     @Override
     public GarmentBuilder setShoeStyle(String shoeStyle) { casual.setShoeStyle(shoeStyle); return this; }
+    @Override
+    public GarmentBuilder setGender(String gender) {casual.setGender(gender); return this; }
 
     @Override
     public Garment build() { return casual; }

@@ -5,12 +5,13 @@ public class Party extends Garment{
         this.topStyle = "Sequin";
         this.bottomStyle = "Mini skirt";
         this.shoeStyle = "Kitten heels";
+        this.gender = "Female";
     }
 
     @Override
     public String toString() {
         String description;
-        description = "Top: " + this.topStyle + "\nBottom: " + this.bottomStyle + "\nShoe: " + this.shoeStyle;
+        description = this.gender + " Garments\nTop: " + this.topStyle + "\nBottom: " + this.bottomStyle + "\nShoe: " + this.shoeStyle;
         return description;
     }
 }
