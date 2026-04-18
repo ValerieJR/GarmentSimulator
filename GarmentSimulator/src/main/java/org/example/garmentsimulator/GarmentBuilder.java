@@ -5,7 +5,7 @@ public interface GarmentBuilder {
     GarmentBuilder setBottomStyle(String bottomStyle);
     GarmentBuilder setShoeStyle(String leftStyle);
 
-    GarmentBuilder build();
+    Garment build();
 
 
 }
