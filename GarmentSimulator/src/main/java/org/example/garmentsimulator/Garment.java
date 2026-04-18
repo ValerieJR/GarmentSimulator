@@ -34,6 +34,8 @@ public abstract class Garment {
 
     @Override
     public String toString() {
-        return super.toString();
+        String description;
+        description = "Top: " + this.topStyle + "\nBottom: " + this.bottomStyle + "\nShoe: " + this.shoeStyle;
+        return description;
     }
 }
